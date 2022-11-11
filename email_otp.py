@@ -17,3 +17,6 @@ def sendEmailVerificationRequest(sender="1100avi@gmail.com",receiver="", custom_
     server.sendmail(sender,receiver,msg)
     server.quit()
     return cur_otp
+
+def foo():
+    print("working")
